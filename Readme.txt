@@ -1,6 +1,6 @@
-O desafio consistirá em desenvolver um aplicativo iOS usando Swift, UIKit e View Code, que exibirá a tela inicial da Digio Store com um carrossel de produtos em destaque e uma tela de detalhes para exibir informações adicionais sobre um produto selecionado. O aplicativo deverá consumir dados de um serviço fornecido.
+O desafio consiste em desenvolver um aplicativo iOS usando Swift, UIKit e View Code, que exibirá a tela inicial da Digio Store com um carrossel de produtos em destaque e uma tela de detalhes para exibir informações adicionais sobre um produto selecionado. O aplicativo deverá consumir dados de um serviço fornecido.
 
-Aqui estão os passos para abordar o desafio:
+A seguir como eu planejei abordar o desafio proposto:
 
 1. Configuração do projeto:
    - Criar um novo projeto no Xcode usando Swift e UIKit.
@@ -22,8 +22,7 @@ Aqui estão os passos para abordar o desafio:
 
 4. Design da tela de detalhes do produto:
    - Criar uma UIViewController para a tela de detalhes do produto.
-   - Ao selecionar um produto na tela inicial, navegar para a tela de detalhes e exibir as informações adicionais sobre o produto.
-   - Projetar a interface de acordo com suas preferências, incluindo a exibição da descrição e detalhes do produto.
+   - Ao selecionar um produto na tela inicial, navegar para a tela de detalhes e exibir imagem, nome e descrição do produto.
 
 5. Arquitetura MVVM:
    - Organizar o código seguindo o padrão de arquitetura MVVM (Model-View-ViewModel).
@@ -33,4 +32,4 @@ Aqui estão os passos para abordar o desafio:
 
 6. Testes:
    - Escrever testes unitários para verificar o comportamento correto do aplicativo.
-   - Testar o consumo do serviço, parsing dos dados e funcionalidades específicas, como navegação entre telas e exibição correta das informações.
+   - Testar o consumo do serviço, parsing dos dados e funcionalidades específicas.
