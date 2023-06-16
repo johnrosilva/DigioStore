@@ -8,14 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		0B192E9F2A3B937400AF03CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192E9E2A3B937400AF03CB /* AppDelegate.swift */; };
-		0B192EA12A3B937400AF03CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EA02A3B937400AF03CB /* SceneDelegate.swift */; };
-		0B192EA32A3B937400AF03CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EA22A3B937400AF03CB /* ViewController.swift */; };
-		0B192EA62A3B937400AF03CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B192EA42A3B937400AF03CB /* Main.storyboard */; };
 		0B192EA82A3B937500AF03CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B192EA72A3B937500AF03CB /* Assets.xcassets */; };
 		0B192EAB2A3B937500AF03CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B192EA92A3B937500AF03CB /* LaunchScreen.storyboard */; };
 		0B192EB62A3B937500AF03CB /* DigioStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EB52A3B937500AF03CB /* DigioStoreTests.swift */; };
 		0B192EC02A3B937500AF03CB /* DigioStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EBF2A3B937500AF03CB /* DigioStoreUITests.swift */; };
 		0B192EC22A3B937500AF03CB /* DigioStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EC12A3B937500AF03CB /* DigioStoreUITestsLaunchTests.swift */; };
+		0B192ED12A3B9C8800AF03CB /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192ED02A3B9C8800AF03CB /* ProductService.swift */; };
+		0B192ED42A3B9D1700AF03CB /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192ED32A3B9D1700AF03CB /* NetworkError.swift */; };
+		0B192ED62A3B9D4700AF03CB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192ED52A3B9D4700AF03CB /* Product.swift */; };
+		0B192ED82A3B9D8200AF03CB /* SpotlightItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192ED72A3B9D8200AF03CB /* SpotlightItem.swift */; };
+		0B192EDA2A3B9DAC00AF03CB /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192ED92A3B9DAC00AF03CB /* APIResponse.swift */; };
+		0B192EDD2A3BA67700AF03CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EDC2A3BA67700AF03CB /* HomeViewController.swift */; };
+		0B192EDF2A3BA6A900AF03CB /* SpotlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EDE2A3BA6A900AF03CB /* SpotlightCell.swift */; };
+		0B192EE12A3BA6D700AF03CB /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EE02A3BA6D700AF03CB /* ProductCell.swift */; };
+		0B192EE52A3BA70900AF03CB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B192EE42A3BA70900AF03CB /* HomeViewModel.swift */; };
+		0B40BDC42A3BB5C700CBE585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B40BDC22A3BB5C700CBE585 /* Main.storyboard */; };
+		0B40BDC82A3C2A8D00CBE585 /* ProductServiceIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDC72A3C2A8D00CBE585 /* ProductServiceIntegrationTests.swift */; };
+		0B40BDCB2A3C2C6800CBE585 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDCA2A3C2C6800CBE585 /* HomeViewModelTests.swift */; };
+		0B40BDCE2A3C2D0700CBE585 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B40BDCD2A3C2D0700CBE585 /* products.json */; };
+		0B40BDCF2A3C2D0700CBE585 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B40BDCD2A3C2D0700CBE585 /* products.json */; };
+		0B40BDD22A3C2FD300CBE585 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDD12A3C2FD300CBE585 /* UIImage+Extension.swift */; };
+		0B40BDD52A3C37D200CBE585 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDD42A3C37D200CBE585 /* ProductDetailViewController.swift */; };
+		0B40BDD72A3C386200CBE585 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDD62A3C386200CBE585 /* ProductDetailViewModel.swift */; };
+		0B40BDD92A3C3E4000CBE585 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDD82A3C3E4000CBE585 /* HomeViewControllerTests.swift */; };
+		0B40BDDB2A3C423300CBE585 /* TesterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDDA2A3C423300CBE585 /* TesterHelper.swift */; };
+		0B40BDDE2A3C4B7C00CBE585 /* ProductDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDDD2A3C4B7C00CBE585 /* ProductDetailViewModelTests.swift */; };
+		0B40BDE02A3C4E7000CBE585 /* ProductDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDDF2A3C4E7000CBE585 /* ProductDetailViewControllerTests.swift */; };
+		0B40BDE32A3CD9A500CBE585 /* SpotlightCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDE22A3CD9A500CBE585 /* SpotlightCellTests.swift */; };
+		0B40BDE52A3CDF8F00CBE585 /* ProductCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDE42A3CDF8F00CBE585 /* ProductCellTests.swift */; };
+		0B40BDE82A3CE75300CBE585 /* LayoutContants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B40BDE72A3CE75300CBE585 /* LayoutContants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +59,6 @@
 /* Begin PBXFileReference section */
 		0B192E9B2A3B937400AF03CB /* DigioStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B192E9E2A3B937400AF03CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B192EA02A3B937400AF03CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B192EA22A3B937400AF03CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B192EA52A3B937400AF03CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B192EA72A3B937500AF03CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B192EAA2A3B937500AF03CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B192EAC2A3B937500AF03CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +67,29 @@
 		0B192EBB2A3B937500AF03CB /* DigioStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B192EBF2A3B937500AF03CB /* DigioStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreUITests.swift; sourceTree = "<group>"; };
 		0B192EC12A3B937500AF03CB /* DigioStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B192ED02A3B9C8800AF03CB /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		0B192ED32A3B9D1700AF03CB /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0B192ED52A3B9D4700AF03CB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0B192ED72A3B9D8200AF03CB /* SpotlightItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightItem.swift; sourceTree = "<group>"; };
+		0B192ED92A3B9DAC00AF03CB /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		0B192EDC2A3BA67700AF03CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0B192EDE2A3BA6A900AF03CB /* SpotlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCell.swift; sourceTree = "<group>"; };
+		0B192EE02A3BA6D700AF03CB /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		0B192EE42A3BA70900AF03CB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0B40BDC32A3BB5C700CBE585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B40BDC72A3C2A8D00CBE585 /* ProductServiceIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceIntegrationTests.swift; sourceTree = "<group>"; };
+		0B40BDCA2A3C2C6800CBE585 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		0B40BDCD2A3C2D0700CBE585 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		0B40BDD12A3C2FD300CBE585 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		0B40BDD42A3C37D200CBE585 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		0B40BDD62A3C386200CBE585 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		0B40BDD82A3C3E4000CBE585 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		0B40BDDA2A3C423300CBE585 /* TesterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterHelper.swift; sourceTree = "<group>"; };
+		0B40BDDD2A3C4B7C00CBE585 /* ProductDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModelTests.swift; sourceTree = "<group>"; };
+		0B40BDDF2A3C4E7000CBE585 /* ProductDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		0B40BDE22A3CD9A500CBE585 /* SpotlightCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotlightCellTests.swift; sourceTree = "<group>"; };
+		0B40BDE42A3CDF8F00CBE585 /* ProductCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellTests.swift; sourceTree = "<group>"; };
+		0B40BDE72A3CE75300CBE585 /* LayoutContants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutContants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +140,15 @@
 		0B192E9D2A3B937400AF03CB /* DigioStore */ = {
 			isa = PBXGroup;
 			children = (
+				0B40BDE62A3CE73200CBE585 /* Reources */,
+				0B40BDD32A3C37B400CBE585 /* ProductDetail */,
+				0B40BDD02A3C2FBA00CBE585 /* Extension */,
+				0B192EDB2A3BA62D00AF03CB /* Home */,
+				0B192ED22A3B9CFD00AF03CB /* Model */,
+				0B192ECF2A3B9C7200AF03CB /* Networking */,
 				0B192E9E2A3B937400AF03CB /* AppDelegate.swift */,
-				0B192EA02A3B937400AF03CB /* SceneDelegate.swift */,
-				0B192EA22A3B937400AF03CB /* ViewController.swift */,
-				0B192EA42A3B937400AF03CB /* Main.storyboard */,
 				0B192EA72A3B937500AF03CB /* Assets.xcassets */,
+				0B40BDC22A3BB5C700CBE585 /* Main.storyboard */,
 				0B192EA92A3B937500AF03CB /* LaunchScreen.storyboard */,
 				0B192EAC2A3B937500AF03CB /* Info.plist */,
 			);
@@ -113,6 +158,10 @@
 		0B192EB42A3B937500AF03CB /* DigioStoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				0B40BDCC2A3C2CED00CBE585 /* Mock */,
+				0B40BDDC2A3C49F400CBE585 /* ProductDetail */,
+				0B40BDC92A3C2C4900CBE585 /* Home */,
+				0B40BDC52A3C29D600CBE585 /* Networking */,
 				0B192EB52A3B937500AF03CB /* DigioStoreTests.swift */,
 			);
 			path = DigioStoreTests;
@@ -127,6 +176,122 @@
 			path = DigioStoreUITests;
 			sourceTree = "<group>";
 		};
+		0B192ECF2A3B9C7200AF03CB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0B192ED02A3B9C8800AF03CB /* ProductService.swift */,
+				0B192ED32A3B9D1700AF03CB /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0B192ED22A3B9CFD00AF03CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B192ED52A3B9D4700AF03CB /* Product.swift */,
+				0B192ED72A3B9D8200AF03CB /* SpotlightItem.swift */,
+				0B192ED92A3B9DAC00AF03CB /* APIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B192EDB2A3BA62D00AF03CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0B192EE22A3BA6E800AF03CB /* Cell */,
+				0B192EDC2A3BA67700AF03CB /* HomeViewController.swift */,
+				0B192EE42A3BA70900AF03CB /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0B192EE22A3BA6E800AF03CB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0B192EDE2A3BA6A900AF03CB /* SpotlightCell.swift */,
+				0B192EE02A3BA6D700AF03CB /* ProductCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0B40BDC52A3C29D600CBE585 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDC62A3C29E700CBE585 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0B40BDC62A3C29E700CBE585 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDC72A3C2A8D00CBE585 /* ProductServiceIntegrationTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0B40BDC92A3C2C4900CBE585 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDE12A3CD99100CBE585 /* Cells */,
+				0B40BDCA2A3C2C6800CBE585 /* HomeViewModelTests.swift */,
+				0B40BDD82A3C3E4000CBE585 /* HomeViewControllerTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0B40BDCC2A3C2CED00CBE585 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDCD2A3C2D0700CBE585 /* products.json */,
+				0B40BDDA2A3C423300CBE585 /* TesterHelper.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		0B40BDD02A3C2FBA00CBE585 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDD12A3C2FD300CBE585 /* UIImage+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0B40BDD32A3C37B400CBE585 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDD42A3C37D200CBE585 /* ProductDetailViewController.swift */,
+				0B40BDD62A3C386200CBE585 /* ProductDetailViewModel.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		0B40BDDC2A3C49F400CBE585 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDDD2A3C4B7C00CBE585 /* ProductDetailViewModelTests.swift */,
+				0B40BDDF2A3C4E7000CBE585 /* ProductDetailViewControllerTests.swift */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		0B40BDE12A3CD99100CBE585 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDE22A3CD9A500CBE585 /* SpotlightCellTests.swift */,
+				0B40BDE42A3CDF8F00CBE585 /* ProductCellTests.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0B40BDE62A3CE73200CBE585 /* Reources */ = {
+			isa = PBXGroup;
+			children = (
+				0B40BDE72A3CE75300CBE585 /* LayoutContants.swift */,
+			);
+			path = Reources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +299,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B192EC52A3B937500AF03CB /* Build configuration list for PBXNativeTarget "DigioStore" */;
 			buildPhases = (
+				0B192ECE2A3B971C00AF03CB /* ShellScript */,
 				0B192E972A3B937400AF03CB /* Sources */,
 				0B192E982A3B937400AF03CB /* Frameworks */,
 				0B192E992A3B937400AF03CB /* Resources */,
@@ -231,9 +397,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B40BDC42A3BB5C700CBE585 /* Main.storyboard in Resources */,
+				0B40BDCE2A3C2D0700CBE585 /* products.json in Resources */,
 				0B192EAB2A3B937500AF03CB /* LaunchScreen.storyboard in Resources */,
 				0B192EA82A3B937500AF03CB /* Assets.xcassets in Resources */,
-				0B192EA62A3B937400AF03CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B40BDCF2A3C2D0700CBE585 /* products.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +421,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B192ECE2A3B971C00AF03CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B192E972A3B937400AF03CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B192EA32A3B937400AF03CB /* ViewController.swift in Sources */,
+				0B192ED82A3B9D8200AF03CB /* SpotlightItem.swift in Sources */,
+				0B192EE52A3BA70900AF03CB /* HomeViewModel.swift in Sources */,
+				0B192EDA2A3B9DAC00AF03CB /* APIResponse.swift in Sources */,
+				0B192EDD2A3BA67700AF03CB /* HomeViewController.swift in Sources */,
+				0B192ED42A3B9D1700AF03CB /* NetworkError.swift in Sources */,
+				0B40BDD52A3C37D200CBE585 /* ProductDetailViewController.swift in Sources */,
+				0B192EE12A3BA6D700AF03CB /* ProductCell.swift in Sources */,
+				0B40BDE82A3CE75300CBE585 /* LayoutContants.swift in Sources */,
+				0B192ED62A3B9D4700AF03CB /* Product.swift in Sources */,
+				0B40BDD72A3C386200CBE585 /* ProductDetailViewModel.swift in Sources */,
 				0B192E9F2A3B937400AF03CB /* AppDelegate.swift in Sources */,
-				0B192EA12A3B937400AF03CB /* SceneDelegate.swift in Sources */,
+				0B192ED12A3B9C8800AF03CB /* ProductService.swift in Sources */,
+				0B40BDD22A3C2FD300CBE585 /* UIImage+Extension.swift in Sources */,
+				0B192EDF2A3BA6A900AF03CB /* SpotlightCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +467,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B40BDDB2A3C423300CBE585 /* TesterHelper.swift in Sources */,
+				0B40BDE02A3C4E7000CBE585 /* ProductDetailViewControllerTests.swift in Sources */,
 				0B192EB62A3B937500AF03CB /* DigioStoreTests.swift in Sources */,
+				0B40BDE52A3CDF8F00CBE585 /* ProductCellTests.swift in Sources */,
+				0B40BDC82A3C2A8D00CBE585 /* ProductServiceIntegrationTests.swift in Sources */,
+				0B40BDE32A3CD9A500CBE585 /* SpotlightCellTests.swift in Sources */,
+				0B40BDCB2A3C2C6800CBE585 /* HomeViewModelTests.swift in Sources */,
+				0B40BDD92A3C3E4000CBE585 /* HomeViewControllerTests.swift in Sources */,
+				0B40BDDE2A3C4B7C00CBE585 /* ProductDetailViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +504,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B192EA42A3B937400AF03CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B192EA52A3B937400AF03CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B192EA92A3B937500AF03CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0B192EAA2A3B937500AF03CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0B40BDC22A3BB5C700CBE585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B40BDC32A3BB5C700CBE585 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -445,6 +652,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +661,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = johnatas.silva.DigioStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,6 +681,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +690,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = johnatas.silva.DigioStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

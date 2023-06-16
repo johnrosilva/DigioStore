@@ -1,0 +1,9 @@
+
+disabled_rules: # Regras desabilitadas
+  - colon
+  - comma
+opt_in_rules: # Regras habilitadas
+  - trailing_whitespace
+  - empty_count
+included:
+  - "Sources" # Pasta onde ficam seus arquivos de c—digo-fonte
